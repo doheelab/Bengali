@@ -1,0 +1,6 @@
+{
+    "image_size": 128,
+    "threshold": 20.0,
+    "arch": "pretrained",
+    "model_name": "se_resnext50_32x4d"
+}
