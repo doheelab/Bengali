@@ -6,6 +6,8 @@ v2: 128 x 128로 크기 변환, Pretrained weight를 layer3까지만 사용
 
 v3: 128 x 128로 크기 변환, Pretrained weight를 layer3까지만 사용, Separate Head로 변경
 
+v4: v3+ GeM
+
 
 <!---
 
