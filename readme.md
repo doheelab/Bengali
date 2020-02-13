@@ -1,8 +1,13 @@
 ## No preprocessing
 
 v0: 136 x 236로 학습
+
 v2: 128 x 128로 크기 변환, Pretrained weight를 layer3까지만 사용
+
 v3: 128 x 128로 크기 변환, Pretrained weight를 layer3까지만 사용, Separate Head로 변경
+
+
+<!---
 
 ## No Preprocessing
 
@@ -18,4 +23,4 @@ v3: 128 x 128로 크기 변환, Pretrained weight를 layer3까지만 사용, Sep
 
 #* Output: 식판, 손, 숫가락, 젓가락 모델의 예측 결과가 사진으로 나타납니다.
 
-
+-->
