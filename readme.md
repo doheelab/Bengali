@@ -1,13 +1,18 @@
 ## No preprocessing
 
-v0: 136 x 236로 학습
+v0: 136 x 236로 학습 (0.9706)
 
-v2: 128 x 128로 크기 변환, Pretrained weight를 layer3까지만 사용
+v2: 128 x 128로 크기 변환, Pretrained weight를 layer3까지만 사용 (0.9687)
 
-v3: 128 x 128로 크기 변환, Pretrained weight를 layer3까지만 사용, Separate Head로 변경
+v3: 128 x 128로 크기 변환, Pretrained weight를 layer3까지만 사용, Separate Head로 변경 (0.9669)
 
-v4: v3+ GeM
+v4: v3 + GeM (0.9693)
 
+v5: v2, DataGeneration, alpha = 1
+
+v6: v2 + GeM 
+
+v7: label smoothing?
 
 <!---
 
