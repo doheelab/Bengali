@@ -8,11 +8,13 @@ v3: 128 x 128로 크기 변환, Pretrained weight를 layer3까지만 사용, Sep
 
 v4: v3 + GeM (0.9693)
 
-v5: v2, DataGeneration, alpha = 1
+v5: v2, DataGeneration, alpha = 1 (worse than v2)
 
-v6: v2 + GeM 
+v6: v2 + GeM (worse than v2)
 
-v7: label smoothing?
+v7: v4 + cutout, alpha = 1, loss = 1:1:1, less augmentations, preprocessed -> alpha=0.4, loss 2:1:1, not preprocessed
+
+v8: v4 + MISH, loss = 1:1:1
 
 <!---
 
