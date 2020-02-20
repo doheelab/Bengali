@@ -12,10 +12,11 @@ v5: v2, DataGeneration, alpha = 1 (worse than v2)
 
 v6: v2 + GeM (worse than v2)
 
-v7: v4 + cutout, alpha = 1, loss = 1:1:1, less augmentations, preprocessed -> alpha=0.4, loss 2:1:1, not preprocessed
+v7: v4 + cutout, alpha=0.4, loss 2:1:1, not preprocessed
 
 v8: v4 + MISH, loss = 1:1:1
 
+v9: v7 + original image
 <!---
 
 ## No Preprocessing
