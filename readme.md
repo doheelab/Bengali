@@ -18,7 +18,9 @@ v8: v4 + MISH, loss = 1:1:1
 
 v9: v7 + original image
 
-v10: v7 + erase cutmix
+v10: v7 + erase cutmix (worse than v7)
+
+v11: v7 + GeM (p=5)
 
 <!---
 
