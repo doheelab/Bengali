@@ -16,11 +16,11 @@ v7: v4 + cutout, alpha=0.4, loss 2:1:1, not preprocessed
 
 v8: v4 + MISH, loss = 1:1:1
 
-v9: v7 + original image
+v9: v7 + original image (epoch 50부터는 aug 2배로)
 
 v10: v7 + erase cutmix (worse than v7)
 
-v11: v7 + GeM (p=5)
+v11: v7 + epoch 120부터 aug 2배로
 
 <!---
 
