@@ -20,7 +20,7 @@ v9: v7 + original image (epoch 50부터는 aug 2배로)
 
 v10: v7 + erase cutmix (worse than v7)
 
-v11: v7 + epoch 120부터 aug 2배로
+v11: preprocessed, 128
 
 <!---
 
