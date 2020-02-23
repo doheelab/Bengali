@@ -16,7 +16,7 @@ v7: v4 + cutout, alpha=0.4, loss 2:1:1, not preprocessed
 
 v8: v4 + MISH, loss = 1:1:1
 
-v9: v7 + original image (epoch 50부터는 aug 2배로)
+v9: v7 + original image (epoch 80부터는 cutout 2배로)
 
 v10: v7 + erase cutmix (worse than v7)
 
