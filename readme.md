@@ -22,11 +22,19 @@ v10: v7 + erase cutmix (worse than v7)
 
 v11: preprocessed, 128
 
-v12: densenet121, 0.99
+v12: densenet121, 0.99, s:12+100
 
 -----------------
 
-v13: pretrained 그대로 쓰는 모델
+-----------------
+
+f0: 128 x 128, s=0
+f0_236x137: 136 x 236, s=10
+
+
+v13: 192 x 198
+
+pretrained 그대로 쓰는 모델
 
 v14: label smoothing 
 
