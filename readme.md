@@ -29,8 +29,10 @@ v12: densenet121, 0.99, s:12+100
 -----------------
 
 f0: 128 x 128, s=0
+
 f0_236x137: 136 x 236, s=10
 
+f0_label_smoothing: 128 x 128, label_smoothing, s=0
 
 v13: 192 x 198
 
