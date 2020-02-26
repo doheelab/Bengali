@@ -34,6 +34,8 @@ f0_236x137: 136 x 236, s=10
 
 f0_label_smoothing: 128 x 128, label_smoothing, s=0
 
+f0-stratified-nfold10-lr002 :  seed12, test=0
+
 v13: 192 x 198
 
 pretrained 그대로 쓰는 모델
