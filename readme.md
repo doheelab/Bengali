@@ -38,6 +38,8 @@ f0-stratified-nfold10-lr002 :  seed12, valid=0
 
 f0-stratified-nfold10-lr002-large-seed22 :  seed22, valid=1
 
+------------------
+
 v13: 192 x 198
 
 pretrained 그대로 쓰는 모델
