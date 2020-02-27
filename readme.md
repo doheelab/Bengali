@@ -34,9 +34,11 @@ f0_236x137: 136 x 236, s=10
 
 f0_label_smoothing: 128 x 128, label_smoothing, s=0
 
-f0-stratified-nfold10-lr002-seed12 :  seed12, test=0
+f0-stratified-nfold10-lr002 :  seed12, valid=0
 
-f0-stratified-nfold10-lr002-large-seed22 : seed22
+f0-stratified-nfold10-lr002-large-seed22 :  seed22, valid=1
+
+------------------
 
 v13: 192 x 198
 
